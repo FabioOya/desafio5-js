@@ -1,0 +1,16 @@
+As árvores utópicas crescem de uma forma particular, em dois ciclos :
+
+.cada primavera dobram seu tamanho
+.cada verão crescem um metro
+
+Se Laura planta uma árvore utópica com um metro, no final do outono, qual seria sua altura depois de N ciclos?
+
+Alguns exemplos : 
+
+.se N = 0, sua altura será 1 metro (não cresceu nada)
+.se N = 1, sua altura será de 2 metros (dobrou a altura na primavera)
+.se N = 2, sua altura será de 3 metros (cresceu um metro mais no verão)
+.se N = 3, sua altura será de 6 metros (dobrou a altura na primavera seguinte)
+.E assim...
+
+Escreva uma função alturaArvoreUtopica, que utilize uma quantidade de ciclos de crescimento, e retorne a altura resultante da árvore de Laura.
